@@ -11,6 +11,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <title>Profil</title>
+  <style>
+  body {
+    background:url("foto/background.jpg");      // Your Image URL
+    min-height : 100%;
+    min-width : 100%;
+    background-size:150% 200%;
+    background-repeat:no-repeat;
+   }
+  .jumbotron {
+    background-color:rgba(255, 255, 255, 0.5);
+  }
+  </style>
 </head>
 
 <body>
@@ -35,19 +47,17 @@
       </div>
     </div>
   </nav>
-
   <!--End of Navbar-->
+
   <!--Bagian ini adalah bagian content yang berisikan profil singkat dan kontak media sosial.-->
   <div class="container">
-    <div class="jumbotron jumbotron-fluid bg-white text-center">
+    <div class="jumbotron jumbotron-fluid text-center text-primary font-weight-bold">
       <div class="container">
         <h1 class="display-4">Profil</h1>
         <!--dengan menambahkan class img-fluid pada tag img, maka gambar tersebut menjadi responsive sesuai dengan settingan dari bootstrap-->
-        <img src="img/pp.jpg" class="rounded-circle img-fluid" width="200">
-        <p class="lead">Hassan Fasya Hidayat</p>
-        <p>Hai, nama saya Hassan Fasya Hidayat biasa dipanggil Hassan, saya berasal dari Tegal. Saya adalah
-          mahasiswa STMIK Akakom
-          Yogyakarta prodi Informatika.</p>
+        <img src="foto/logo.jpg" class="rounded-circle img-fluid" width="200">
+        <h1 class="text-white font-weight-bold">CIK ART GALLERY</h1>
+        <p>lorem ipsum</p>
         <p class="lead">Social Media</p>
         <!--Untuk menampilkan icon, disini saya menggunakan row dan col yang merupakan bagian dari layout grid pada bootstrap. Dengan mengimplementasikan layout grid sama saja dengan mengimplementasikan media query. Pada bagian ini ketika resolusi layar lebih kecil atau lebih besar dari 576px maka hanya menampilkan 2 kolom, ketika lebih besar dari 768px maka menampilkan 3 kolom, jika lebih besar dari 992px maka menampilkan 5 kolom-->
         <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
